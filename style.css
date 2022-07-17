@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Lato&family=Nunito+Sans&display=swap');
+
+* {
+    margin: auto;
+    background-color: #F9F7F7;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+} 
+
+.header {
+    display: flex;  
+    margin-top: 32px; 
+    max-width: 1089px;
+    margin-bottom: 100px;
+}
+
+.logo h2 {
+    font-size: 31px;
+    color: #3F72AF;
+    font-weight: 900;
+    /* margin-right: 100px; */
+}
+
+.links a{
+    color: #112D4E;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 16px 0 16px;
+}
+
+.links {
+    margin-right: 0;
+    margin-left: 200px;
+}
+
+.SH input {
+    background-color: #3F72AF;
+    color: #F9F7F7;
+    font-size: 18px;
+    width: 166px;
+    height: 54px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: normal;
+    border-radius: 32px;
+    border-color: transparent;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    max-width: 1120px;
+    height: 522px;
+    margin-bottom: 100px;
+}
+
+.bio {
+    max-width: 544px;
+    height: 426px;
+    /* margin-left: 48px;
+    margin-top: 48px;
+    margin-bottom: 48px; */
+    /* border: 2px solid; */
+}
+
+.bio h1 {
+    font-size: 60px ;
+    color:  #112D4E;
+    font-weight: bolder;
+    line-height: 60px;
+    margin: 16px 0 16px 0;
+}
+
+.bio h3 {
+    font-size: 28px;
+    color: #3F72AF;
+    font-weight: 900;
+    text-shadow: 1px 0 1px #000, 
+                0 1px 1px #000, 
+                -1px 0 1px #000, 
+                0 -1px 1px #000;
+}
+
+.bio p {
+    font-size: 24px;
+    color: #525252;
+    line-height: 28px;
+}
+
+.buttons input{
+    font-size: 18px;
+    margin: 32px 16px 0 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: normal;
+    border-radius: 32px;
+    border-color: transparent;
+    padding: 16px 32px;
+}
+
+.DR {
+    background-color: #DBE2EF;
+    color: #3F72AF;
+}
+
+.RP {
+    background-color: #3F72AF;
+    color: #F9F7F7;
+}
+
+.avatar img{
+    max-width: 480px;
+    margin-right: 0;
+    /* border: 2px solid; */
+    border-radius: 50%;
+}
+
+.UI p{
+    margin: auto;
+    color: #525252;
+    font-size: 18px;
+}
+
+.UI {
+    margin-bottom: 100px;
+    max-width: 1104px;
+}
+
+.UIheader {
+    text-align: center;
+    max-width: 550px;
+    margin-bottom: 80px;
+}
+
+.UIheader h2, .Work h2{
+    color: #112D4E;
+    font-size: 39px;
+    font-style: 900;
+}
+
+.UIcontent {
+    display: flex;
+}
+
+.UIdescription {
+    margin-left: 48px;
+}
+
+.UIdescription h3, .YTdescription h3 {
+    color: #112D4E;
+    font-size: 31px;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+
+.UIdescription p, .YTdescription p {
+    margin-bottom: 32px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.SMAD, .RMAM, .WMYC {
+    border: 2px #3F72AF solid;
+    border-radius: 32px;
+    font-size: 18px;
+    color: #3F72AF;
+    font-weight: 600;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 16px 32px;
+}
+
+.UIcatalog {
+    margin-right: 0;
+    max-width: 624px;
+    display: flex;
+}
+
+.right, .left{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border-color: #112D4E;
+    border: 2px solid;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 36px;   
+}
+
+.UIcatalog img {
+    margin: 0 32px 0 32px;
+}
+
+.UX {
+    max-width: 1440px;
+    margin-bottom: 100px;
+}
+
+.UXheader {
+    text-align: center;
+}
+
+.UX h2{
+   font-size: 48px;
+   color: #112D4E;
+   font-weight: 900; 
+   margin-bottom: 16px;
+}
+
+.UX p{
+    color: #525252;
+    font-size: 16px;
+    margin-bottom: 68px;
+}
+
+.UXcatalog {
+    text-align: center;
+    margin-bottom: 68px;
+}
+
+.UXbuttons{
+    text-align: center;
+}
+
+.RMAM {
+    margin-top: 32px;
+}
+
+.leftb{
+    margin-right: 32px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border-color: #112D4E;
+    border: 2px solid;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 36px;  
+}
+
+.Youtube {
+    margin: 159px 0 159px 0; 
+    position: relative;  
+}
+
+.cursive {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 24px;
+    color: #112D4E;
+    max-width: 490px;
+    position: absolute;
+    margin-left: 55%;
+}
+
+.YTinside {
+    display: flex;
+    max-width: 928px;
+}
+
+.YTpic img {
+    margin-right: 32px;
+}
+
+.YTdescription {
+    max-width: 448px;
+    margin: 48px;
+}
+
+.Work p{
+    margin-bottom: 32px;
+    color: #525252;
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+.Work {
+    max-width: 660px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.HM, .EM {
+    color: #3F72AF;
+    text-decoration-line: underline;
+    font-size: 18px;
+    padding: 16px 32px;
+    border-radius: 32px;
+    border: #3F72AF 2px solid;
+    font-weight: 600;
+}
+
+.EM {
+    border: 2px solid #DBE2EF;
+    background-color: #DBE2EF;
+}
+
+.footer {
+    display: flex;
+    max-width: 1000px;
+    padding: 16px 48px;
+    margin-top: 61px;
+    margin-bottom: 93px;
+}
+
+.footerlogo h2{
+    color: #3F72AF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.footerlogo {
+    margin: 0;
+    padding: 0;
+}
+
+.footerlinks {
+    font-size: 16px;
+    color: #525252;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-right: 0px;
+    padding: 0;
+}
+
+.footerlinks a {
+    margin-right: 64px;
+}
+
+.footerlinks a:last-child {
+    margin-right: 0px;
+}
+
+.RP:hover, .DR:hover, .SMAD:hover, .RMAM:hover, .WMYC:hover, .HM:hover, .EM:hover, .SH:hover, a:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
